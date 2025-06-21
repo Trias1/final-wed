@@ -32,6 +32,7 @@
   flex-direction: column;
   align-items: center;
   gap: 2rem;
+  transition: transform 0.3s ease;
 }
 
 .timeline::before {
@@ -40,7 +41,7 @@
   left: 50%;
   width: 4px;
   height: 100%;
-  background: #1f1f38;
+  background: #C38D7A;
   transform: translateX(-50%);
 }
 
@@ -63,6 +64,10 @@
   z-index: 1;
 }
 
+.timeline:hover {
+  transform: scale(1.02);
+}
+
 .moment-title {
   font-size: 1.2rem;
   font-weight: bold;
@@ -70,14 +75,14 @@
 
 .moment-description {
   font-size: 1rem;
-  color: #555;
+   color: #7f8c8d;
 }
 
 .timeline-icon {
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: #1f1f38;
+  background: #C38D7A;
   color: white;
   width: 40px;
   height: 40px;

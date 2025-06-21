@@ -20,8 +20,8 @@ export default function CalonPasangan() {
 
           <div className="pengantin">
             <Image
-              src="/img/lak.png"
-              className="rounded-circle "
+              src="/img/laks.png"
+              className="rounded-circle"
               layout="responsive"
               width={50}
               height={50}
@@ -43,7 +43,7 @@ export default function CalonPasangan() {
 
           <div className="pengantin">
             <Image
-              src="/img/prem.png"
+              src="/img/prems.png"
               className="rounded-circle "
               layout="responsive"
               width={50}

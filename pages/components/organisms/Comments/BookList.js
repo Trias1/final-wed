@@ -6,7 +6,7 @@ import { Pagination } from "react-bootstrap";
 const BooksList = () => {
   const [books, setBooks] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 10;
+  const itemsPerPage = 7;
 
   useEffect(() => {
     const unsubscribe = BookDataService.getAllBooksRealtime((snapshot) => {
@@ -35,7 +35,7 @@ const BooksList = () => {
   };
 
   return (
-    <div className="containers mt-5" id="submitss">
+    <div className="containers mt-4" id="submitss">
       <div className="card-bodys">
         <div className="mt-3">
           {paginatedBooks.map((doc) => (
@@ -68,20 +68,20 @@ const BooksList = () => {
         <Pagination className="mt-3 justify-content-center">
           <Pagination.Prev
             onClick={() => handlePageChange(currentPage - 1)}
-            disabled={currentPage === 1}
+            disabled={currentPage === 1} className="pags"
           />
           {[...Array(totalPages)].map((_, i) => (
-            <Pagination.Item
+            <Pagination.Item 
               key={i + 1}
               active={i + 1 === currentPage}
-              onClick={() => handlePageChange(i + 1)}
+              onClick={() => handlePageChange(i + 1)} className="pags"
             >
               {i + 1}
             </Pagination.Item>
           ))}
           <Pagination.Next
             onClick={() => handlePageChange(currentPage + 1)}
-            disabled={currentPage === totalPages}
+            disabled={currentPage === totalPages} className="pags"
           />
         </Pagination>
       </div>

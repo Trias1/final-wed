@@ -8,6 +8,16 @@
     background: transparent;
     border-radius: 10px;
   }
+
+  .card-maps {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  transition: all 0.3s ease;
+}
   
   /* Responsif untuk layar lebih kecil dari 991px */
   @media (max-width: 991px) {

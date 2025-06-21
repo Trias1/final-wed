@@ -21,6 +21,15 @@ html {
   margin-bottom: 20px; /* Jarak antara gambar dan teks */
 }
 
+.card-main {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
 .pre-title {
   font-size: 1.5rem;
   font-weight: 400;

@@ -16,7 +16,7 @@
   letter-spacing: 1px;
   margin-top: 10px;
   border: none;
-  background: #1f1f38;
+  background: #C38D7A;
   color: #fff;
   transition: 0.3s ease-in-out;
   font-size: 14px;
@@ -24,23 +24,9 @@
 
 .card-bodys .btn-kirim-undangan:hover {
   background: white;
-  color: black;
+  color: #C38D7A;
 }
 
-.btn-refresh-undangan {
-  padding: 10px 20px;
-  font-size: 12px;
-  border-radius: 0.4rem;
-  font-weight: bold;
-  background: #28a745;
-  color: #fff;
-  border: none;
-  transition: 0.3s ease-in-out;
-}
-
-.btn-refresh-undangan:hover {
-  background: #218838;
-}
 
 .ucapan h1 {
   font-size: 1.5rem;
@@ -75,6 +61,7 @@
   font-size: 0.9rem;
   text-align: left;
 }
+
 
 /* Style untuk perangkat mobile */
 @media (max-width: 768px) {

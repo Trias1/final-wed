@@ -10,9 +10,9 @@ export default function Navbar() {
     <>
       <nav className="nav">
         <a
-          href="/#"
-          onClick={() => setActiveNav("#")}
-          className={activeNav === "#" ? "active" : ""}
+          href="#mainbanner"
+          onClick={() => setActiveNav("#mainbanner")}
+          className={activeNav === "#mainbanner" ? "active" : ""}
         >
           <AiOutlineHome />
         </a>

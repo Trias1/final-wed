@@ -37,21 +37,21 @@ export default function mainBanner() {
   }, [days, hours, minutes, seconds]);
 
   return (
-    <div className="containers">
+    <div className="containers" id="mainbanner">
       <div className="main-banner-container">
         <div className="main-banner">
           <div className="display-table center-text">
             <div className="display-table-cell">
-              <div className="card">
+              <div className="card-main">
                 <div className="slider-content">
                   <img
                     src="/img/bck.png"
                     alt="Wedding Image"
-                    className="banner-image mb-4"
+                    className="banner-image "
                   />
-                  <h3 className="pre-title mb-5">The Wedding of</h3>
+                  <h3 className="pre-title ">The Wedding of</h3>
                   <h1 className="titles">Trias & Zulfa</h1>
-                  <h4 className="text-invite mt-5">
+                  <h4 className="text-invite ">
                     We invite you to celebrate our wedding
                     <br />
                     <span className="mt-1">Sabtu, 28 September 2025</span>

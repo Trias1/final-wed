@@ -3,8 +3,8 @@ import React from "react";
 export default function Maps() {
   return (
     <section id="maps">
-      <div className="containers">
-        <div className="card">
+      <div className="containers mt-4">
+        <div className="card-maps">
           <div className="map-responsive">
             <iframe
               width="550"
