@@ -18,6 +18,8 @@ import AdabWalimah from "../../components/organisms/walimah";
 
 export default function UndanganUserPage() {
   const router = useRouter();
+  const [bookId, setBookId] = useState("");
+  const [onNewComment] = useState("");
   const { id: rawId } = router.query;
   const modalRef = useRef<HTMLDivElement>(null);
   const audioRef = useRef<HTMLAudioElement>(null);
@@ -31,8 +33,7 @@ export default function UndanganUserPage() {
   useEffect(() => {
     if (formattedId) {
       const found = undanganData.find(
-        (item) =>
-          item.name.toLowerCase().replace(/\s+/g, "-") === formattedId
+        (item) => item.name.toLowerCase().replace(/\s+/g, "-") === formattedId
       );
 
       if (found) {
@@ -60,7 +61,9 @@ export default function UndanganUserPage() {
     }
 
     if (window.bootstrap && modalRef.current) {
-      const modalInstance = window.bootstrap.Modal.getInstance(modalRef.current);
+      const modalInstance = window.bootstrap.Modal.getInstance(
+        modalRef.current
+      );
       modalInstance?.hide();
     }
   };
@@ -69,7 +72,10 @@ export default function UndanganUserPage() {
     return (
       <div className="text-center mt-5 p-4">
         <h1>Undangan Tidak Ditemukan</h1>
-        <p>Silakan periksa kembali URL atau hubungi admin untuk info lebih lanjut.</p>
+        <p>
+          Silakan periksa kembali URL atau hubungi admin untuk info lebih
+          lanjut.
+        </p>
       </div>
     );
   }
@@ -110,8 +116,12 @@ export default function UndanganUserPage() {
                   alt="Foto Pengantin"
                 />
               </div>
-              <p className="nameUndangan fw-bold fs-3 text-white">{userData.name}</p>
-              <p className="desc1 fw-bold text-lg text-white">{userData.description}</p>
+              <p className="nameUndangan fw-bold fs-3 text-white">
+                {userData.name}
+              </p>
+              <p className="desc1 fw-bold text-lg text-white">
+                {userData.description}
+              </p>
               <div className="descButton d-flex align-items-center gap-2 mt-4 rounded-pill px-3 py-2 bg-white">
                 <FaBookOpen />
                 <button
@@ -134,7 +144,7 @@ export default function UndanganUserPage() {
       <LoveStory />
       <WeedingLocation />
       <Maps />
-      <AddBook id={userData.id} setBookId={() => {}} onNewComment="" />
+      <AddBook id={bookId} setBookId={setBookId} onNewComment={onNewComment} />
       <BooksList />
       <AdabWalimah />
       <Footer />
