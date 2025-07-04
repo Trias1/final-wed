@@ -40,9 +40,9 @@ export default function Amplop() {
     {
       image: "/img/qris.png",
       alt: "QRIS Pembayaran",
-      rekening: "1234567890",
+      rekening: "7275226858",
       bank: "BCA",
-      atasNama: "Trias & Zulfa",
+      atasNama: "Trias Zaen Mutaqin",
     },
     {
       image: "/img/qris.png",
@@ -93,14 +93,14 @@ export default function Amplop() {
           <div className="keluarga-container">
             <div className="keluarga">
               <h3>Keluarga Besar Pria</h3>
-              <p>Bapak Asep Sudrajat & Ibu Upi</p>
-              <p>Keluarga Besar Sudrajat</p>
+              <p>Pak Asep Sudrajat & Ibu Upi</p>
+              <p>Keluarga Besar Pak Sudrajat</p>
             </div>
 
             <div className="keluarga">
               <h3>Keluarga Besar Wanita</h3>
-              <p>Bapak Cartab & Ibu Dewi Komalasari</p>
-              <p>Keluarga Besar Cartab</p>
+              <p>Pak Cartab & Ibu Dewi Komalasari</p>
+              <p>Keluarga Besar Pak Cartab</p>
             </div>
           </div>
 
@@ -145,8 +145,9 @@ export default function Amplop() {
                   />
                   <p className="mt-3 mb-0 fw-bold">Rekening {item.bank}</p>
                   <p>
-                    {item.rekening} a.n {item.atasNama}
+                    {item.rekening}
                   </p>
+                  <p> {item.atasNama}</p>
                 </div>
               ))}
             </div>

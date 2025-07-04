@@ -105,12 +105,13 @@
 
 .modal-body p {
   font-size: 1rem;
-  color: #555;
+  color: #fff
 }
 
 .modal-title {
   font-weight: bold;
   font-size: 1.2rem;
+  color: #fff;
 }
 /* Modal Custom Ukuran */
 .modal-amplop-custom {
@@ -134,7 +135,7 @@
   border-radius: 12px;
   padding: 1rem;
   text-align: center;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 10px #C38D7A;
 }
 
 .amplop-container img {
