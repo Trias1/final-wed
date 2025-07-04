@@ -26,7 +26,7 @@ export default function Amplop() {
     const handleHidden = () => {
       window.scrollTo({
         top: scrollYRef.current,
-        behavior: "instant", // atau "smooth" kalau mau animasi
+        behavior: "smooth", // atau "smooth" kalau mau animasi
       });
     };
 
