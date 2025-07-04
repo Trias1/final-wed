@@ -154,7 +154,7 @@
   }
   
   .btn-kirim {
-    background: #1f1f38;
+    background: #C38D7A;
     color: white;
     border: none;
     padding: 0.8rem 1.5rem;
@@ -167,7 +167,7 @@
   
   .btn-kirim:hover {
     background: white;
-    color: black;
+    color: #C38D7A;
   }
   
   /* Responsive */

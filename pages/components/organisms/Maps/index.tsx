@@ -20,7 +20,7 @@ export default function Maps() {
           </div>
           <a
             href="https://www.google.co.id/maps/place/Graha+Umbaran/@-6.7572596,108.5013923,17z/data=!3m1!4b1!4m6!3m5!1s0x2e6f1f674ff78ebf:0x141da11be53d9ea8!8m2!3d-6.7572596!4d108.5039672!16s%2Fg%2F11fp3vjt0l!5m1!1e1?entry=ttu&g_ep=EgoyMDI1MDQwOS4wIKXMDSoASAFQAw%3D%3D"
-            className="btn btn-maps"
+            className="btn-maps"
           >
             Buka Maps
           </a>

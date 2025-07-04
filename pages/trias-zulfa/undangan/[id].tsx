@@ -143,10 +143,10 @@ export default function UndanganUserPage() {
       <LoveStory />
       <WeedingLocation />
       <Maps />
+      <AdabWalimah />
+      <Amplop />
       <AddBook id={bookId} setBookId={setBookId} onNewComment={onNewComment} />
       <BooksList />
-      <AdabWalimah />
-      <Amplop/>
       <Footer />
 
       {/* Bootstrap Script */}

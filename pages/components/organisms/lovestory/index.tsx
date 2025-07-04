@@ -10,7 +10,7 @@ const LoveStory = () => {
     },
     {
       year: "2022",
-      title: "Mulai Berpacaran",
+      title: "Mulai Komitmen",
       description:
         "Setelah mengenal lebih dalam, kami memutuskan untuk menjalani hubungan bersama.",
     },
@@ -29,7 +29,7 @@ const LoveStory = () => {
   ];
 
   return (
-      <div className="containers">
+      <div className="containers" id="lovestory">
         <div className="calon-cardss">
           <div className="love-story-container">
             <h1 className="section-title">Love Story</h1>

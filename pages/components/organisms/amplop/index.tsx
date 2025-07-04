@@ -61,7 +61,7 @@ export default function Amplop() {
   ];
 
   return (
-    <section id="calon">
+    <section id="amplop">
       <div className="containers mt-4">
         <div className="card-amp">
           <div className="text-undangan">
@@ -93,13 +93,13 @@ export default function Amplop() {
           <div className="keluarga-container">
             <div className="keluarga">
               <h3>Keluarga Besar Pria</h3>
-              <p>Asep Sudrajat & Upi</p>
+              <p>Bapak Asep Sudrajat & Ibu Upi</p>
               <p>Keluarga Besar Sudrajat</p>
             </div>
 
             <div className="keluarga">
               <h3>Keluarga Besar Wanita</h3>
-              <p>Cartab & Dewi Komalasari</p>
+              <p>Bapak Cartab & Ibu Dewi Komalasari</p>
               <p>Keluarga Besar Cartab</p>
             </div>
           </div>
