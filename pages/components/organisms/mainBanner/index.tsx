@@ -47,7 +47,7 @@ export default function mainBanner() {
                   <img
                     src="/img/bck.png"
                     alt="Wedding Image"
-                    className="banner-image "
+                    className="banner-image"
                   />
                   <h3 className="pre-title ">The Wedding of</h3>
                   <h1 className="titles">Trias & Zulfa</h1>

@@ -20,7 +20,7 @@
 
 .deskripsi {
   font-size: 1rem;
-  text-align: justify;
+  text-align: center;
   color: #555;
 }
 
@@ -60,7 +60,7 @@
 .orangtua {
   font-size: 0.9rem;
   color: gray;
-  text-align: justify;
+  text-align: center;
 }
 
 .sosmed {

@@ -4,7 +4,6 @@ import Image from "next/image";
 import Script from "next/script";
 import { FaBookOpen } from "react-icons/fa";
 import undanganData from "../../undangan.json";
-
 import Navbar from "../../components/organisms/Navbar";
 import MainBanner from "../../components/organisms/mainBanner";
 import CalonPasangan from "../../components/organisms/calonPasangan";
@@ -15,6 +14,7 @@ import AddBook from "../../components/organisms/Comments/AddBook";
 import BooksList from "../../components/organisms/Comments/BookList";
 import LoveStory from "../../components/organisms/lovestory";
 import AdabWalimah from "../../components/organisms/walimah";
+import Amplop from "../../components/organisms/amplop";
 
 export default function UndanganUserPage() {
   const router = useRouter();
@@ -23,7 +23,6 @@ export default function UndanganUserPage() {
   const { id: rawId } = router.query;
   const modalRef = useRef<HTMLDivElement>(null);
   const audioRef = useRef<HTMLAudioElement>(null);
-
   const [userData, setUserData] = useState<any | null>(null);
   const [notFound, setNotFound] = useState(false);
 
@@ -147,6 +146,7 @@ export default function UndanganUserPage() {
       <AddBook id={bookId} setBookId={setBookId} onNewComment={onNewComment} />
       <BooksList />
       <AdabWalimah />
+      <Amplop/>
       <Footer />
 
       {/* Bootstrap Script */}
