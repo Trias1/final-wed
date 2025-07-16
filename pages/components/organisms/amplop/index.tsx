@@ -71,7 +71,7 @@ export default function Amplop() {
               kepada kedua mempelai. Atas kehadiran dan do’a restunya kami
               sampaikan banyak terima kasih.
             </p>
-            <p className="kami-yang-berbahagia">Kami yang berbahagia,</p>
+            <p className="kami-yang-berbahagia">Kami yang berbahagia</p>
           </div>
 
           <div className="psgns">

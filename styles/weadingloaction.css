@@ -18,28 +18,28 @@
   justify-content: center;
   gap: 2rem;
   flex-wrap: wrap;
+  margin-bottom: 1.5rem;
 }
 
 .card-wed {
   flex: 1 1 300px;
   background: #fff;
   border-radius: 16px;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
-  padding: 2rem;
-  text-align: center;
-}
-
-.card {
-  flex: 1 1 300px;
-  background: #fff;
-  border-radius: 16px;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px #C38D7A;
   padding: 2rem;
   text-align: center;
   transition: all 0.3s ease;
 }
 
-.card:hover {
+.card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  text-align: center;
+}
+
+.card-wed:hover {
   transform: translateY(-5px);
 }
 
@@ -120,29 +120,27 @@
 /* Responsive */
 @media (max-width: 768px) {
   .card-duo {
-    flex-direction: column;
-    gap: 1.5rem;
+    flex-wrap: nowrap;      /* ⛔ Jangan wrap, tetap horizontal */
+    gap: 0.5rem;             /* Jarak antar card dikurangi */
+    justify-content: space-between;
   }
 
-  .section-titles{
-    font-size: 1.5rem;
+  .card-wed {
+    flex: 1 1 45%;           /* Lebarnya cukup setengah */
+    padding: 1rem;
+    font-size: 0.85rem;      /* Semua isi dalam card mengecil */
   }
 
-  .card-title{
-    font-size: 1.2rem;
-  }
-
-  .save-the-date {
-    flex-direction: column;
+  .save-the-date span {
+    font-size: 1rem;
   }
 
   .date {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
-  .event-detail {
-    flex-direction: column;
-    text-align: center;
+  .card-title {
+    font-size: 1rem;
   }
 
   .event-detail h4 {
@@ -150,6 +148,7 @@
   }
 
   .icon {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
+
 }

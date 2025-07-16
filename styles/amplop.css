@@ -78,12 +78,13 @@
   }
   
   .keluarga {
-    background: #f8f8f8;
-    padding: 1rem;
-    border-radius: 10px;
-    text-align: center;
-    width: 45%;
-    min-width: 200px;
+  flex: 1 1 300px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px #C38D7A;
+  padding: 2rem;
+  text-align: center;
+  transition: all 0.3s ease;
   }
   
   .keluarga h3 {
