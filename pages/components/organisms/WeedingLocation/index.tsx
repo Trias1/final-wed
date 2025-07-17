@@ -47,8 +47,7 @@ export default function WeedingLocation() {
               <GoLocation className="icon" />
               <h4>Graha Umbaran</h4>
               <h4>
-                Jl. Pangeran Cakrabuana No.102, Sendang, Kec. Sumber, Kabupaten
-                Cirebon, Jawa Barat 45611
+                Jl. Pangeran Cakrabuana No.102, Sendang, Kec. Sumber, Kabupaten Cirebon, Jawa Barat 45611
               </h4>
             </div>
           </div>
